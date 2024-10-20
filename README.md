@@ -34,9 +34,9 @@ The **White Belt** represents the first step on your journey. This is where you 
    npx sb init
    ```
 4. **Start Storybook**:
-   `bash
- npm run storybook
- `
+   ```bash
+   npm run storybook
+   ```
    Once Storybook is running, you’ve earned your White Belt! 🥋
 
 ---
@@ -47,7 +47,7 @@ The **Yellow Belt** signifies the mastery of the basics of component creation an
 
 ### Step 2: Create a Button Component
 
-1.  **Create a Button component in src/components/Button.jsx**
+1.  **Create a `Button` component in `src/components/Button.jsx`**
 
     ```jsx
     import React from "react";
@@ -59,7 +59,7 @@ The **Yellow Belt** signifies the mastery of the basics of component creation an
     export default Button;
     ```
 
-2.  **Create a Storybook story for the Button component in src/components/Button.stories.jsx**:
+2.  **Create a Storybook story for the `Button` component in `src/components/Button.stories.jsx`**:
 
     ```js
     import React from "react";
@@ -77,4 +77,4 @@ The **Yellow Belt** signifies the mastery of the basics of component creation an
     };
     ```
 
-    Once you see your component in Storybook, congratulations! You’ve earned the Yellow Belt! 🥋
+    Once you see your component in Storybook, congratulations! You’ve earned the **Yellow Belt**! 🥋
