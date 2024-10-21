@@ -11,7 +11,7 @@ Welcome to the WACOCO **Front-end Team**! This guide will help you get started b
 3. Learn key frontend concepts like **state lifting** and **state propagation**.
 4. Begin contributing to the main project.
 
-Each step will be marked by a karate belt level to signify your progress.
+Each step will be marked by a **karate belt level** to signify your progress.
 
 ---
 
@@ -79,11 +79,11 @@ Once you see your component in Storybook, congratulations! You’ve earned the *
 
 ## 🥋 Orange Belt – Adding Advanced Props to the Button Component (5 min)
 
-The Orange Belt introduces you to working with advanced props, controlling component behavior, and styling through CSS.
+The **Orange Belt** introduces you to working with advanced props, controlling component behavior, and styling through CSS.
 
 ### Step 3: Enhance the Button Component
 
-1. Extend the `Button` component to support additional props: `backgroundColor`, `size`, and `primary`:
+1. **Extend the `Button` component to support additional props: `backgroundColor`, `size`, and `primary`**:
 
 ```jsx
 import React from "react";
@@ -107,7 +107,7 @@ const Button = ({ label, onClick, backgroundColor, size, primary }) => {
 export default Button;
 ```
 
-2. Write a CSS file `Button.css`:
+2. **Write a CSS file `Button.css`**:
 
 ```CSS
 .button {
@@ -138,7 +138,7 @@ export default Button;
 }
 ```
 
-3. Update the Storybook story to provide controls for each prop:
+3. **Update the Storybook story to provide controls for each prop**:
 
 ```js
 import React from "react";
@@ -169,15 +169,15 @@ export const Primary = {
 };
 ```
 
-With this, you’ve learned to enhance components with dynamic props and CSS. Welcome to the Orange Belt! 🥋
+With this, you’ve learned to enhance components with dynamic props and CSS. Welcome to the **Orange Belt**! 🥋
 
 ## 🥋 Green Belt – Working with PropTypes and Default Values (5 min)
 
-The Green Belt focuses on type-checking with `PropTypes` and setting default values for props.
+The **Green Belt** focuses on type-checking with `PropTypes` and setting default values for props.
 
 ### Step 4: Adding PropTypes and Default Values
 
-1. Update the `Button` component to include `PropTypes` and default values:
+1. **Update the `Button` component to include `PropTypes` and default values**:
 
 ```jsx
 import React from "react";
@@ -216,17 +216,17 @@ Button.defaultProps = {
 export default Button;
 ```
 
-2. Test your changes in Storybook and ensure that default values are properly handled.
+2. **Test your changes in Storybook and ensure that default values are properly handled.**
 
 You’ve now added PropTypes and default props to ensure robust components. You’ve earned the **Green Belt**! 🥋
 
-### 🥋 Blue Belt – State Lifting in a Simple Sign-in Component (5 min)
+## 🥋 Blue Belt – State Lifting in a Simple Sign-in Component (5 min)
 
 State lifting is key for components that need to share data between parent and child components. In the **Blue Belt**, we’ll build a basic **Sign-in** form where state is lifted.
 
 ### Step 5: Lifting State in a Sign-in Form
 
-1. Create a `SignInForm` component that handles user input state:
+1. **Create a `SignInForm` component that handles user input state**:
 
 ```jsx
 import React, { useState } from "react";
@@ -266,7 +266,7 @@ const SignInForm = ({ onSubmit }) => {
 export default SignInForm;
 ```
 
-2. Create a `SignInContainer` component to lift the state and handle the form submission:
+2. **Create a `SignInContainer` component to lift the state and handle the form submission**:
 
 ```jsx
 import React from "react";
@@ -283,7 +283,7 @@ const SignInContainer = () => {
 export default SignInContainer;
 ```
 
-3. Create a Storybook story for the `SignInContainer`:
+3. **Create a Storybook story for the `SignInContainer`**:
 
 ```js
 import React from "react";
@@ -305,7 +305,7 @@ Now, the **Red Belt** takes state propagation further by displaying the form inp
 
 ## Step 6: Propagating State in Sign-in
 
-1. Create a `SignInDisplay` component to show the submitted data:
+1. **Create a `SignInDisplay` component to show the submitted data**:
 
 ```jsx
 const SignInDisplay = ({ email, password }) => {
@@ -321,7 +321,7 @@ const SignInDisplay = ({ email, password }) => {
 export default SignInDisplay;
 ```
 
-2. Update `SignInContainer` to propagate state to the `SignInDisplay`:
+2. **Update `SignInContainer` to propagate state to the `SignInDisplay`**:
 
 ```jsx
 import React, { useState } from "react";
@@ -359,9 +359,11 @@ At the **Black Belt** level, you’ve mastered:
 
 Now you’re ready to contribute to the main project! Keep the following in mind:
 
-- Work on feature branches.
-- Follow code review and pull request processes.
-- Refer back to this guide or internal documentation when needed.
+1.  Work on feature branches.
+2.  Follow code review and pull request processes.
+3.  Refer back to this guide or internal documentation when needed.
+
+---
 
 ## 💡 Additional Resources
 
